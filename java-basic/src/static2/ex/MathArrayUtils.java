@@ -29,7 +29,7 @@ public class MathArrayUtils {
 
     public static int max(int[] values) {
         int maxValue = values[0];
-        for (int value : values) {
+        for (int value : values) { //for문으로 i=1부터 시작하면 좀더 효율적으로 변경 가능
             if (value > maxValue) {
                 maxValue = value; }
         }
