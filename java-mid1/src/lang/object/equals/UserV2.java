@@ -14,7 +14,7 @@ public class UserV2 {
     public boolean equals(Object object) {
         if (this == object) return true;
         if (object == null || getClass() != object.getClass()) return false;
-        UserV2 userV2 = (UserV2) object;
+        UserV2 userV2 = (UserV2) object; //다운캐스팅 해야지 id 접근 가능
         return Objects.equals(id, userV2.id);
     }
 
