@@ -5,7 +5,7 @@ public class ObjectPolyMain2 {
     public static void main(String[] args) {
         Dog dog = new Dog();
         Car car = new Car();
-        Object object = new Object();
+        Object object = new Object(); //Object도 인스턴스 생성 가능
 
         Object[] objects = {dog, car, object};
 
