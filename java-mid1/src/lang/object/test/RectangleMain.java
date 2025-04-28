@@ -1,7 +1,5 @@
 package lang.object.test;
 
-import java.awt.*;
-
 public class RectangleMain {
 
     public static void main(String[] args) {
