@@ -3,7 +3,7 @@ import java.util.Random;
 public class RandomMain {
     public static void main(String[] args) {
 
-햣 ㅁ
+        Random random = new Random();
         //Random random = new Random(1); //seed가 같으면 Random의 결과가 같다.
         int randomInt = random.nextInt();
         System.out.println("randomInt: " + randomInt);
