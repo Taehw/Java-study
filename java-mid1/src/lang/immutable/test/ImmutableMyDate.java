@@ -13,9 +13,8 @@ public class ImmutableMyDate {
     }
 
     public ImmutableMyDate withYear(int newYear) {
-        return new ImmutableMyDate(newYear, month, day);
+        return new ImmutableMyDate(newYear, month, day); //새로운객체를 만들어서 반환
     }
-
     public ImmutableMyDate withMonth(int newMonth) {
         return new ImmutableMyDate(year, newMonth, day);
     }
@@ -23,7 +22,7 @@ public class ImmutableMyDate {
     public ImmutableMyDate withDay(int newDay) {
         return new ImmutableMyDate(year, month, newDay);
     }
-    
+
     @Override
     public String toString() {
         return year + "-" + month + "-" + day;
