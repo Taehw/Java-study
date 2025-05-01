@@ -7,6 +7,5 @@ public class ClassGrade {
 
     //외부에서 생성못하게 private 생성자 추가
 
-    private ClassGrade() {
-    }
+    private ClassGrade() {}
 }
