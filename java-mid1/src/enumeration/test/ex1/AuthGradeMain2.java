@@ -15,8 +15,9 @@ public class AuthGradeMain2 {
             Scanner input = new Scanner(System.in);
 
             System.out.print("당신의 등급을 입력하세요[GUEST, LOGIN, ADMIN]: ");
-
             AuthGrade grade = AuthGrade.valueOf(input.nextLine());
+
+
             System.out.println("당신의 등급은 " + grade.getDescription() + "입니다.");
             System.out.println("==메뉴 목록==");
 
