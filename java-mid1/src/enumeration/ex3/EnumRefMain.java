@@ -12,7 +12,7 @@ public class EnumRefMain {
         System.out.println("ref DIAMOND = " + refValue(Grade.DIAMOND));
     }
 
-    private static String refValue(Grade grade) {
+    private static String refValue(Grade grade) { //Grade보단 Object로 하는게 더 좋아보임
 
         return Integer.toHexString(System.identityHashCode(grade));
     }
