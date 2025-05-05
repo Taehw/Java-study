@@ -6,7 +6,7 @@ public class ShadowingMain {
 
     class Inner {
         public int value = 2;
-        
+
         void go() {
             int value = 3;
             System.out.println("value = " + value);
