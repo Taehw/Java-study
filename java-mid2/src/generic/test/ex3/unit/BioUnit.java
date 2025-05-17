@@ -21,4 +21,8 @@ public class BioUnit {
                 ", hp=" + hp +
                 '}';
     }
+
+    public String getName() {
+        return name;
+    }
 }
