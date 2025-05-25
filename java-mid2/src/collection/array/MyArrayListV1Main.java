@@ -28,7 +28,7 @@ public class MyArrayListV1Main {
         list.add("e");
         System.out.println(list);
 
-        
+
         //범위 초과 capacity가 늘어나지 않으면 예외발생
         list.add("f");
         System.out.println(list);
