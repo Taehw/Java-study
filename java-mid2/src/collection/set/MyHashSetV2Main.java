@@ -10,6 +10,7 @@ public class MyHashSetV2Main {
         set.add("D");
         set.add("AB");
         set.add("SET");
+
         System.out.println(set);
 
         System.out.println("A.hashCode() = " + "A".hashCode());
